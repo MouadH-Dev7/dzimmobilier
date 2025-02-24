@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  
+
+    <title>ImmoDz</title>
+</head>
+<header>   <nav class="navbar">
+    <div class="logo">ImmoDz </div>
+    <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="../html/inscription.html">connexion</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav></header>
+<body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+   
+    <section class="splide" aria-label="Splide Basic HTML Example">
+       
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide"><img src="./img/slide1.jpg" alt=""></li>
+                  <li class="splide__slide"><img src="./img/slide2.jpg" alt=""></li>
+                  <li class="splide__slide"><img src="./img/slide3.jpg" alt=""></li>
+                  <li class="splide__slide"><img src="./img/slide4.jpg" alt=""></li>
+                  <li class="splide__slide"><img src="./img/slide 5.jpg" alt=""></li>
+                  <li class="splide__slide"><img src="./img/slide6.jpg" alt=""></li>
+              </ul>
+        </div>
+       
+      </section>  
+      <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function() {
+          var splide = new Splide( '.splide',{
+            with:'100%',
+            height:'95vh',
+            type: 'loop',
+            autoplay: true,
+            interval:5000
+          } );
+          splide.mount();
+        } );
+      
+    </script>
+     <h1 id="text1">touver les meilleure bien immobiler en algerie
+            
+     </h1>
+     <div class="search-container">
+        <input type="text" placeholder="Rechercher un bien dans une region ou taper un mot cle">
+        <button>
+            🔍
+        </button>
+    </div>
+    
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+
+     <br>
+
+     <section class="info" data-aos="fade-left">
+        <div class="card-info" data-aos="flip-right">
+            <img src="./img/INFO-IMG1.avif" alt="">
+            <p>Ajoutez une annonce gratuitement en créant un compte</p>
+        </div>
+        <div class="card-info"data-aos="flip-right" >
+            <img src="./img/INFO-IMG2.webp" alt="">
+            <p>Dessinez sur la carte et trouvez tous les biens disponibles</p>
+        </div>
+        <div class="card-info" data-aos="flip-right">
+            <img src="./img/INFO-IMG3.jpg" alt="">
+            <p>Faites évaluer votre bien avec de simples photos</p>
+        </div>
+        <div class="card-info" data-aos="flip-right">
+            <img src="./img/INFO-IMG4.jpg" alt="">
+            <p>Découvrez toutes les agences immobilières affiliées à nous</p>
+        </div>
+        <div class="card-info" data-aos="flip-right">
+            <img src="./img/card.jpg" alt="">
+            <p>Découvrez les promotions immobilières dans votre secteur</p>
+        </div>
+    </section>
+    
+
+        
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <h1 id="flt" data-aos="zoom-in">filtrer et commencer vos recherche</h1>
+     <br>
+     <br>
+     <br>
+     <br>
+ 
+     <label for="filter" class="switch" aria-label="Toggle Filter" data-aos="zoom-in-right">
+         <input type="checkbox" id="filter" />
+         <span>achat </span>
+         <span>location</span>
+       </label>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+
+<section class="filtre" data-aos="zoom-out-up">
+   
+    <div id="filtreAchat">
+
+        <div class="form-container">
+            <h2>Recherche de Bien Immobilier en Algérie</h2>
+            <form action="/submit" method="post">
+                <div class="form-group">
+                    <label>Type de bien recherché :</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="type" value="Appartement"> Appartement</label>
+                        <label><input type="checkbox" name="type" value="Maison"> Maison</label>
+                        <label><input type="checkbox" name="type" value="Villa"> Villa</label>
+                        <label><input type="checkbox" name="type" value="Local commercial"> Local commercial</label>
+                        <label><input type="checkbox" name="type" value="Bureau"> Bureau</label>
+                        <label><input type="checkbox" name="type" value="Parking"> Parking</label>
+                        <label><input type="checkbox" name="type" value="Terrain"> Terrain</label>
+                        <label><input type="checkbox" name="type" value="Bâtiment"> Bâtiment</label>
+                        <label><input type="checkbox" name="type" value="Hôtel particulier"> Hôtel particulier</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Type d'appartement :</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="type-appartement" value="F1"> F1</label>
+                        <label><input type="checkbox" name="type-appartement" value="F2"> F2</label>
+                        <label><input type="checkbox" name="type-appartement" value="F3"> F3</label>
+                        <label><input type="checkbox" name="type-appartement" value="F4"> F4</label>
+                        <label><input type="checkbox" name="type-appartement" value="F5"> F5</label>
+                        <label><input type="checkbox" name="type-appartement" value="Duplex"> Duplex</label>
+                        <label><input type="checkbox" name="type-appartement" value="Triplex"> Triplex</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label for="wilaya">Wilaya :</label>
+                    <select id="wilaya" name="wilaya">
+                        <option value="">Choisir</option>
+                        <option value="Alger">Alger</option>
+                        <option value="Oran">Oran</option>
+                        <option value="Constantine">Constantine</option>
+                        <option value="Annaba">Annaba</option>
+                        <option value="Blida">Blida</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="commune">Commune :</label>
+                    <input type="text" id="commune" name="commune">
+                </div>
+    
+                <div class="form-group">
+                    <label>Fourchette de prix (en DZD) :</label>
+                    <div class="range-group">
+                        <input type="number" id="prix-min" name="prix-min" placeholder="Prix min.">
+                        <input type="number" id="prix-max" name="prix-max" placeholder="Prix max.">
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Mode de paiement :</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="paiement" value="Comptant"> Comptant</label>
+                        <label><input type="checkbox" name="paiement" value="Crédit"> Crédit</label>
+                        <label><input type="checkbox" name="paiement" value="Échelonné"> Échelonné</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Fourchette de surface habitable (en m²) :</label>
+                    <div class="range-group">
+                        <input type="number" id="surface-min" name="surface-min" placeholder="Surface min.">
+                        <input type="number" id="surface-max" name="surface-max" placeholder="Surface max.">
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Nombre de pièces :</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="pieces" value="1"> 1 pièce</label>
+                        <label><input type="checkbox" name="pieces" value="2"> 2 pièces</label>
+                        <label><input type="checkbox" name="pieces" value="3"> 3 pièces</label>
+                        <label><input type="checkbox" name="pieces" value="4"> 4 pièces</label>
+                        <label><input type="checkbox" name="pieces" value="5"> 5 pièces</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Nombre de chambres :</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="chambres" value="1"> 1 chambre</label>
+                        <label><input type="checkbox" name="chambres" value="2"> 2 chambres</label>
+                        <label><input type="checkbox" name="chambres" value="3"> 3 chambres</label>
+                        <label><input type="checkbox" name="chambres" value="4"> 4 chambres</label>
+                        <label><input type="checkbox" name="chambres" value="5"> 5 chambres</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Type de chauffage :</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="chauffage" value="Gaz"> Gaz</label>
+                        <label><input type="checkbox" name="chauffage" value="Collectif"> Collectif</label>
+                        <label><input type="checkbox" name="chauffage" value="Fuel"> Fuel</label>
+                        <label><input type="checkbox" name="chauffage" value="Electrique"> Electrique</label>
+                        <label><input type="checkbox" name="chauffage" value="Individuel"> Individuel</label>
+                        <label><input type="checkbox" name="chauffage" value="Autre"> Autre</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Type d'aménagement :</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="amenagement" value="Vide"> Vide</label>
+                        <label><input type="checkbox" name="amenagement" value="Meublé"> Meublé</label>
+                        <label><input type="checkbox" name="amenagement" value="Indifferent"> Indifférent</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label><input type="checkbox" name="exclusivite" value="exclusivite"> Uniquement les exclusivités</label>
+                </div>
+    
+                <div class="form-group">
+                    <label for="perimetre">Périmètre géographique (en km) :</label>
+                    <input type="number" id="perimetre" name="perimetre">
+                </div>
+    
+                <div class="form-group">
+                    <label>Situation du logement dans l'immeuble :</label>
+                    <div class="range-group">
+                        <input type="number" id="etage-min" name="etage-min" placeholder="Étage min.">
+                        <input type="number" id="etage-max" name="etage-max" placeholder="Étage max.">
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>À propos de l'immeuble :</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="immeuble" value="Ascenseur"> Ascenseur</label>
+                        <label><input type="checkbox" name="immeuble" value="Interphone"> Interphone</label>
+                        <label><input type="checkbox" name="immeuble" value="Digicode"> Digicode</label>
+                        <label><input type="checkbox" name="immeuble" value="Gardien"> Gardien</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Liste des commodités :</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="commodites" value="Piscine"> Piscine</label>
+                        <label><input type="checkbox" name="commodites" value="Alarme"> Alarme</label>
+                        <label><input type="checkbox" name="commodites" value="Climatisation"> Climatisation</label>
+                        <label><input type="checkbox" name="commodites" value="Cheminée"> Cheminée</label>
+                        <label><input type="checkbox" name="commodites" value="Parquet"> Parquet</label>
+                        <label><input type="checkbox" name="commodites" value="Terrasse(s)"> Terrasse(s)</label>
+                        <label><input type="checkbox" name="commodites" value="Balcon(s)"> Balcon(s)</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Pièces :</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="pieces" value="Salle à manger séparée"> Salle à manger séparée</label>
+                        <label><input type="checkbox" name="pieces" value="Séjour"> Séjour</label>
+                        <label><input type="checkbox" name="pieces" value="Toilettes séparées"> Toilettes séparées</label>
+                        <label><input type="checkbox" name="pieces" value="Salle de Bain"> Salle de Bain</label>
+                        <label><input type="checkbox" name="pieces" value="Salle d'eau (douche)"> Salle d'eau (douche)</label>
+                        <label><input type="checkbox" name="pieces" value="Entrée séparée(s)"> Entrée séparée(s)</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Rangements :</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="rangements" value="Cave"> Cave</label>
+                        <label><input type="checkbox" name="rangements" value="Placards"> Placards</label>
+                        <label><input type="checkbox" name="rangements" value="Parking Ouvert"> Parking Ouvert</label>
+                        <label><input type="checkbox" name="rangements" value="Box (parking fermé ou garage)"> Box (parking fermé ou garage)</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Orientation :</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="orientation" value="Sud"> Sud</label>
+                        <label><input type="checkbox" name="orientation" value="Est"> Est</label>
+                        <label><input type="checkbox" name="orientation" value="Nord"> Nord</label>
+                        <label><input type="checkbox" name="orientation" value="Ouest"> Ouest</label>
+                        <label><input type="checkbox" name="orientation" value="Sans vis à vis"> Sans vis à vis</label>
+                        <label><input type="checkbox" name="orientation" value="Indifferent"> Indifférent</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <button type="submit">Rechercher</button>
+                </div>
+            </form>
+        </div>
+          </div>
+     </div>
+
+      <div id="filtreLocation" >
+        <div class="container">
+            <form class="form">
+                <h2 class="form-title">Location</h2>
+    
+                <div class="form-group">
+                    <label>Type de bien</label>
+                    <select>
+                        <option>Appartement</option>
+                        <option>Maison</option>
+                        <option>Studio</option>
+                        <option>Bureau</option>
+                    </select>
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Wilaya</label>
+                        <select>
+                            <option>Alger</option>
+                            <option>Oran</option>
+                            <option>Blida</option>
+                            <option>Sétif</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Durée de location</label>
+                        <select>
+                            <option>1 mois</option>
+                            <option>3 mois</option>
+                            <option>6 mois</option>
+                            <option>1 an</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Prix mensuel (DZD)</label>
+                        <input type="number" placeholder="Min">
+                        <input type="number" placeholder="Max">
+                    </div>
+                    <div class="form-group">
+                        <label>Superficie (m²)</label>
+                        <input type="number" placeholder="Min">
+                        <input type="number" placeholder="Max">
+                    </div>
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Nombre de chambres</label>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4 et plus</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Étage</label>
+                        <select>
+                            <option>RDC</option>
+                            <option>Intermédiaire</option>
+                            <option>Dernier étage</option>
+                            <option>Duplex</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <h4>Options Avancées</h4>
+                <div class="form-row">
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="meuble">
+                        <label for="meuble">Meublé</label>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="ascenseur">
+                        <label for="ascenseur">Ascenseur</label>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="garage">
+                        <label for="garage">Garage / Parking</label>
+                    </div>
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Type de Chauffage</label>
+                        <select>
+                            <option>Électrique</option>
+                            <option>Gaz</option>
+                            <option>Pompe à chaleur</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Proximité des Transports</label>
+                        <select>
+                            <option>Métro</option>
+                            <option>Tramway</option>
+                            <option>Bus</option>
+                            <option>Train</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Quartier Sécurisé</label>
+                        <select>
+                            <option>Résidence fermée</option>
+                            <option>Vidéosurveillance</option>
+                            <option>Gardiennage</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Charges comprises</label>
+                        <select>
+                            <option>Oui</option>
+                            <option>Non</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="form-group text-center">
+                    <button type="submit" id="btn2">Rechercher</button>
+                </div>
+            </form>
+        </div>
+   
+    </div>
+ </div>
+<script>
+ document.addEventListener("DOMContentLoaded", function () {
+    const toggleSwitch = document.getElementById("filter");
+    const filtreAchat = document.getElementById("filtreAchat");
+    const filtreLocation = document.getElementById("filtreLocation");
+
+    filtreAchat.style.display = "block";
+    filtreLocation.style.display = "none";
+
+    toggleSwitch.addEventListener("change", function () {
+        if (toggleSwitch.checked) {
+            filtreAchat.style.display = "none";
+            filtreLocation.style.display = "block";
+        } else {
+            filtreAchat.style.display = "block";
+            filtreLocation.style.display = "none";
+        }
+    });
+});
+
+    </script>
+    
+
+
+
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="filtreMap" data-aos="zoom-out-right"> 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d204484.31859802376!2d3.1860141390985133!3d36.792932493880365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spromotion%20immobili%C3%A8re%20alger!5e0!3m2!1sfr!2sdz!4v1740105343271!5m2!1sfr!2sdz" width="1680" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br> 
+    <div id="resu" data-aos="fade-left">
+    <p> promotion imobiliere: <span>6</span> </p>
+    <p> resulta exact: <span>0</span></p>
+    <p>resulta aproximatif: <span>4</span></p>
+</div>
+</div>
+<br><br><br><br>
+
+<br>
+<br> <br>
+<br> <br>
+<br> <br>
+<br> <br>
+<br> <br>
+
+<p id="prm" data-aos="zoom-in-up" >promotion imobiliere dans le secteur recherché</p>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container3" >
+    <div class="slide">
+        <div class="item" style="background-image: url(./img/promo1.jpeg);">
+            <div class="content">
+                <div class="name">promotion imobiliere 1</div>
+                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                <button>Voir plus</button>
+            </div>
+        </div>
+        <div class="item" style="background-image: url(./img/promo2.jpg);">
+            <div class="content">
+                <div class="name">promotion imobiliere 2</div>
+                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                <button>Voir plus</button>
+            </div>
+        </div>
+        <div class="item" style="background-image: url(./img/promo3.jpg);">
+            <div class="content">
+                <div class="name">promotion imobiliere 3</div>
+                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                <button>Voir plus</button>
+            </div>
+        </div>
+        <div class="item" style="background-image: url(./img/promo4.png);">
+            <div class="content">
+                <div class="name">promotion imobiliere 4</div>
+                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                <button>Voir plus</button>
+            </div>
+        </div>
+        <div class="item" style="background-image: url(./img/promo5.jpeg);">
+            <div class="content">
+                <div class="name">Publication 5</div>
+                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                <button>Voir plus</button>
+            </div>
+        </div>
+    </div>
+    <div class="button3">
+        <button class="prev"></button>
+        <button class="next"></button>
+    </div>
+</div>
+</div>
+<script>
+    let next = document.querySelector('.next');
+    let prev = document.querySelector('.prev');
+
+    next.addEventListener('click', function () {
+        let items = document.querySelectorAll('.item');
+        document.querySelector('.slide').appendChild(items[0]);
+    });
+
+    prev.addEventListener('click', function () {
+        let items = document.querySelectorAll('.item');
+        document.querySelector('.slide').prepend(items[items.length - 1]);
+    });
+</script>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br><br>
+<br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+
+
+<p id="atr" data-aos="zoom-in-down">autre bien a vendre</p>
+
+
+<br>
+<br>
+<section id="Publication">
+
+    <div class="container5" >
+        <div class="card2" data-aos="zoom-out-down">
+          <div class="card-header">
+            <img src="./img/publ1.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Maison</span>
+            <h4>
+             maison a vendre 
+            </h4>
+            <p>
+aintaya            </p>
+            <div class="user">
+              <img src="./img/dummy-user-img-1.png" alt="" />
+              <div class="user-info">
+                <h5>mohamed</h5>
+                <small>2h ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card2" data-aos="zoom-out-down">
+          <div class="card-header">
+            <img src="./img/publ2.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-purple">appartement</span>
+            <h4>
+appartement F4 Meublé       </h4>
+            <p>
+              boumerdes
+            </p>
+            <div class="user">
+              <img src="./img/useravatar2.png" alt="" />
+              <div class="user-info">
+                <h5>mohamed</h5>
+                <small>Yesterday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card2" data-aos="zoom-out-down">
+          <div class="card-header">
+            <img src="./img/publ3.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-pink">Duplex</span>
+            <h4>
+             Duplex vue sur mere 
+            </h4>
+            <p>
+rouiba            </p>
+            <div class="user">
+              <img src="./img/useravatar3.avif" alt="" />
+              <div class="user-info">
+                <h5>mohamed</h5>
+                <small>1w ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+
+        <div class="page">
+            <div class="logo">
+             <img src="./img/vecteezy_home-icon-png-transparent_9589345.png" alt="">  
+             
+             <p>ImmoDz</p>
+           </div>
+    
+     <div id="numpage">  
+         <a href="">1</a><a href="">2</a><a href="">3</a><a href="">4</a><a href="">5</a><a href="">6</a><a href="">suivant>></a>
+        </div>
+     </div>
+    
+    
+
+        
+</section>
+<br>
+<br>
+
+
+ <footer class="footer" data-aos="zoom-out-down">
+        <div class="footer-container">
+            <div class="footer-column" data-aos="fade-left">
+                <h5>Liens utiles</h5>
+                <a href="#">Accueil</a>
+                <a href="#">À propos</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="footer-column"data-aos="fade-left">
+                <h5>Contact</h5>
+                <p>📍 Alger, Algérie</p>
+                <p>📞 +213 123 456 789</p>
+                <p>📧 contact@example.com</p>
+            </div>
+
+            <div class="footer-column" data-aos="fade-left">
+                <h5>Suivez-nous</h5>
+                <div class="social-icons" data-aos="fade-left">
+                    <a href="#">🔵 Facebook</a>
+                    <a href="#">🐦 Twitter</a>
+                    <a href="#">📸 Instagram</a>
+                    <a href="#">🔗 LinkedIn</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom" data-aos="fade-left">
+            &copy; 2024 Mon Site. Tous droits réservés.
+        </div>
+    </footer>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

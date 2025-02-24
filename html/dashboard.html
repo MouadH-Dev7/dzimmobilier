@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <title>Inscription</title>
+   
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Menu</h2>
+    <ul>
+        <li>statistique</li>
+        <li>ajouter un partenair</li>
+        <li>Publication</li>
+        <li>tout les compte</li>
+    </ul>
+</div>
+<div class="container" id="agc">
+    <div id="form-box">
+        <h2>Inscription Agence</h2>
+        <form>
+            <label for="nom-agence">Nom de l'Agence</label>
+            <input type="text" id="nom-agence" placeholder="Nom de l'agence">
+
+            <label for="email-agence">Email</label>
+            <input type="email" id="email-agence" placeholder="Email">
+
+            <label for="tel-agence">Téléphone</label>
+            <input type="tel" id="tel-agence" placeholder="Téléphone">
+
+            <label for="adresse-agence">Adresse</label>
+            <input type="text" id="adresse-agence" placeholder="Adresse">
+
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+
+    <div id="form-box2" >
+        <h2>Inscription Promoteur</h2>
+        <form>
+            <label for="nom-promoteur">Nom du Promoteur</label>
+            <input type="text" id="nom-promoteur" placeholder="Nom du promoteur">
+
+            <label for="email-promoteur">Email</label>
+            <input type="email" id="email-promoteur" placeholder="Email">
+
+            <label for="tel-promoteur">Téléphone</label>
+            <input type="tel" id="tel-promoteur" placeholder="Téléphone">
+
+            <label for="societe-promoteur">Nom de la Société</label>
+            <input type="text" id="societe-promoteur" placeholder="Nom de la société">
+
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+</div>
+<div id="tog">
+<label for="filter" class="switch" aria-label="Toggle Filter">
+  <input type="checkbox" id="filter" />
+  <span>agence </span>
+  <span>promoteur</span>
+</label>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+     const toggleSwitch = document.getElementById("filter");
+     const filtreAchat = document.getElementById("form-box");
+     const filtreLocation = document.getElementById("form-box2");
+ 
+     filtreAchat.style.display = "block";
+     filtreLocation.style.display = "none";
+ 
+     toggleSwitch.addEventListener("change", function () {
+         if (toggleSwitch.checked) {
+             filtreAchat.style.display = "none";
+             filtreLocation.style.display = "block";
+         } else {
+             filtreAchat.style.display = "block";
+             filtreLocation.style.display = "none";
+         }
+     });
+ });
+ 
+     </script>
+</body>
+</html>
