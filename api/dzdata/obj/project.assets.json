@@ -1672,11 +1672,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzdata\\dzdata.csproj",
+      "projectUniqueName": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzdata\\dzdata.csproj",
       "projectName": "dzdata",
-      "projectPath": "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzdata\\dzdata.csproj",
+      "projectPath": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzdata\\dzdata.csproj",
       "packagesPath": "C:\\Users\\mouad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzdata\\obj\\",
+      "outputPath": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzdata\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\api\\api.csproj": {}
+    "C:\\Users\\mouad\\Desktop\\imobiler\\api\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\api\\api.csproj": {
+    "C:\\Users\\mouad\\Desktop\\imobiler\\api\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\api\\api.csproj",
+        "projectPath": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\api\\api.csproj",
         "packagesPath": "C:\\Users\\mouad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\api\\obj\\",
+        "outputPath": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzbussinis\\dzbussinis.csproj": {
-                "projectPath": "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzbussinis\\dzbussinis.csproj"
+              "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzbussinis\\dzbussinis.csproj": {
+                "projectPath": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzbussinis\\dzbussinis.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzbussinis\\dzbussinis.csproj": {
+    "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzbussinis\\dzbussinis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzbussinis\\dzbussinis.csproj",
+        "projectUniqueName": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzbussinis\\dzbussinis.csproj",
         "projectName": "dzbussinis",
-        "projectPath": "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzbussinis\\dzbussinis.csproj",
+        "projectPath": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzbussinis\\dzbussinis.csproj",
         "packagesPath": "C:\\Users\\mouad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzbussinis\\obj\\",
+        "outputPath": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzbussinis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -110,8 +110,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzdata\\dzdata.csproj": {
-                "projectPath": "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzdata\\dzdata.csproj"
+              "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzdata\\dzdata.csproj": {
+                "projectPath": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzdata\\dzdata.csproj"
               }
             }
           }
@@ -151,14 +151,14 @@
         }
       }
     },
-    "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzdata\\dzdata.csproj": {
+    "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzdata\\dzdata.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzdata\\dzdata.csproj",
+        "projectUniqueName": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzdata\\dzdata.csproj",
         "projectName": "dzdata",
-        "projectPath": "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzdata\\dzdata.csproj",
+        "projectPath": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzdata\\dzdata.csproj",
         "packagesPath": "C:\\Users\\mouad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mouad\\Desktop\\dzimmobilly\\api\\dzdata\\obj\\",
+        "outputPath": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzdata\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

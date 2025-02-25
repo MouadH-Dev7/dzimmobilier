@@ -11,12 +11,12 @@ namespace dzbussinis
 
         public UserDTO UDTO
         {
-            get { return new UserDTO(this.ID, this.Name, this.Name2, this.Email, this.Password, this.Phone, this.RoleId, this.CreatedAt); }
+            get { return new UserDTO(this.ID, this.Name, this.Email, this.Password, this.Phone, this.RoleId, this.CreatedAt); }
         }
 
         public int ID { get; set; }
         public string Name { get; set; }
-        public string Name2 { get; set; }
+
         public string Email { get; set; }
         public string Password { get; set; }
         public string Phone { get; set; }
@@ -27,7 +27,7 @@ namespace dzbussinis
         {
             this.ID = UDTO.Id;
             this.Name = UDTO.Name;
-            this.Name2 = UDTO.Name2;
+
             this.Email = UDTO.Email;
             this.Password = UDTO.Password;
             this.Phone = UDTO.Phone;

@@ -10,3 +10,16 @@ C:\Users\mouad\Desktop\dzimmobilly\api\dzdata\obj\Debug\net8.0\dzdata.dll
 C:\Users\mouad\Desktop\dzimmobilly\api\dzdata\obj\Debug\net8.0\refint\dzdata.dll
 C:\Users\mouad\Desktop\dzimmobilly\api\dzdata\obj\Debug\net8.0\dzdata.pdb
 C:\Users\mouad\Desktop\dzimmobilly\api\dzdata\obj\Debug\net8.0\ref\dzdata.dll
+C:\Users\mouad\Desktop\imobiler\api\dzdata\bin\Debug\net8.0\dzdata.deps.json
+C:\Users\mouad\Desktop\imobiler\api\dzdata\bin\Debug\net8.0\dzdata.dll
+C:\Users\mouad\Desktop\imobiler\api\dzdata\bin\Debug\net8.0\dzdata.pdb
+C:\Users\mouad\Desktop\imobiler\api\dzdata\obj\Debug\net8.0\dzdata.csproj.AssemblyReference.cache
+C:\Users\mouad\Desktop\imobiler\api\dzdata\obj\Debug\net8.0\dzdata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mouad\Desktop\imobiler\api\dzdata\obj\Debug\net8.0\dzdata.AssemblyInfoInputs.cache
+C:\Users\mouad\Desktop\imobiler\api\dzdata\obj\Debug\net8.0\dzdata.AssemblyInfo.cs
+C:\Users\mouad\Desktop\imobiler\api\dzdata\obj\Debug\net8.0\dzdata.csproj.CoreCompileInputs.cache
+C:\Users\mouad\Desktop\imobiler\api\dzdata\obj\Debug\net8.0\dzdata.sourcelink.json
+C:\Users\mouad\Desktop\imobiler\api\dzdata\obj\Debug\net8.0\dzdata.dll
+C:\Users\mouad\Desktop\imobiler\api\dzdata\obj\Debug\net8.0\refint\dzdata.dll
+C:\Users\mouad\Desktop\imobiler\api\dzdata\obj\Debug\net8.0\dzdata.pdb
+C:\Users\mouad\Desktop\imobiler\api\dzdata\obj\Debug\net8.0\ref\dzdata.dll
