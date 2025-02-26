@@ -30,7 +30,7 @@ namespace dzdata
    
     public class users_data
     {
-        static string _connectionString = "Server=localhost;Database=DB_dzimmo;User Id=sa;Password=sa123456;Encrypt=False;TrustServerCertificate=True;Connection Timeout=30;";
+        private static readonly string _connectionString = Connection_data._connectionString;
 
         public static List<UserDTO> GetAllUsers()
         {
