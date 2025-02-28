@@ -5,6 +5,7 @@
     "version": "1.0"
   },
   "paths": {
+<<<<<<< HEAD
     "/api/Agences/All": {
       "get": {
         "tags": [
@@ -1850,6 +1851,8 @@
         }
       }
     },
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
     "/api/Roles/All": {
       "get": {
         "tags": [
@@ -2219,6 +2222,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "/api/Status_Properties/All": {
       "get": {
         "tags": [
@@ -2957,6 +2961,8 @@
         }
       }
     },
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
     "/api/Users/All": {
       "get": {
         "tags": [
@@ -3538,6 +3544,7 @@
   },
   "components": {
     "schemas": {
+<<<<<<< HEAD
       "AgencesDTO": {
         "type": "object",
         "properties": {
@@ -3578,6 +3585,8 @@
         },
         "additionalProperties": false
       },
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
       "ProblemDetails": {
         "type": "object",
         "properties": {
@@ -3605,6 +3614,7 @@
         },
         "additionalProperties": { }
       },
+<<<<<<< HEAD
       "PromoteurDTO": {
         "type": "object",
         "properties": {
@@ -3715,6 +3725,8 @@
         },
         "additionalProperties": false
       },
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
       "RoleDTO": {
         "type": "object",
         "properties": {
@@ -3729,6 +3741,7 @@
         },
         "additionalProperties": false
       },
+<<<<<<< HEAD
       "Status_PropertiesDTO": {
         "type": "object",
         "properties": {
@@ -3757,6 +3770,8 @@
         },
         "additionalProperties": false
       },
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
       "UserDTO": {
         "type": "object",
         "properties": {

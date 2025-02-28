@@ -8,7 +8,10 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+<<<<<<< HEAD
     <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
   </ItemGroup>
 
 </Project>

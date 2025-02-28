@@ -420,6 +420,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "runtime.native.System.Data.SqlClient.sni/4.4.0": {
         "type": "package",
         "dependencies": {
@@ -455,6 +456,8 @@
           }
         }
       },
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
       "System.ClientModel/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -492,6 +495,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "System.Data.SqlClient/4.9.0": {
         "type": "package",
         "dependencies": {
@@ -521,6 +525,8 @@
           }
         }
       },
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
       "System.Diagnostics.DiagnosticSource/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -1319,6 +1325,7 @@
         "microsoft.sqlserver.server.nuspec"
       ]
     },
+<<<<<<< HEAD
     "runtime.native.System.Data.SqlClient.sni/4.4.0": {
       "sha512": "A8v6PGmk+UGbfWo5Ixup0lPM4swuSwOiayJExZwKIOjTlFFQIsu3QnDXECosBEyrWSPryxBVrdqtJyhK3BaupQ==",
       "type": "package",
@@ -1382,6 +1389,8 @@
         "version.txt"
       ]
     },
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
     "System.ClientModel/1.0.0": {
       "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
       "type": "package",
@@ -1430,6 +1439,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Data.SqlClient/4.9.0": {
       "sha512": "j4KJO+vC62NyUtNHz854njEqXbT8OmAa5jb1nrGfYWBOcggyYUQE0w/snXeaCjdvkSKWuUD+hfvlbN8pTrJTXg==",
       "type": "package",
@@ -1463,6 +1473,8 @@
         "system.data.sqlclient.nuspec"
       ]
     },
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
     "System.Diagnostics.DiagnosticSource/6.0.1": {
       "sha512": "KiLYDu2k2J82Q9BJpWiuQqCkFjRBWVq4jDzKKWawVi9KWzyD0XG3cmfX0vqTQlL14Wi9EufJrbL0+KCLTbqWiQ==",
       "type": "package",
@@ -1822,8 +1834,12 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+<<<<<<< HEAD
       "Microsoft.Data.SqlClient >= 6.0.1",
       "System.Data.SqlClient >= 4.9.0"
+=======
+      "Microsoft.Data.SqlClient >= 6.0.1"
+>>>>>>> bc13879 (Mise à jour du projet)
     ]
   },
   "packageFolders": {
@@ -1879,10 +1895,13 @@
           "Microsoft.Data.SqlClient": {
             "target": "Package",
             "version": "[6.0.1, )"
+<<<<<<< HEAD
           },
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.9.0, )"
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
           }
         },
         "imports": [

@@ -316,6 +316,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "runtime.native.System.Data.SqlClient.sni/4.4.0": {
         "dependencies": {
           "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
@@ -350,6 +351,8 @@
           }
         }
       },
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
       "Swashbuckle.AspNetCore/6.6.2": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -412,6 +415,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "System.Data.SqlClient/4.9.0": {
         "dependencies": {
           "runtime.native.System.Data.SqlClient.sni": "4.4.0"
@@ -437,6 +441,8 @@
           }
         }
       },
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
       "System.Diagnostics.DiagnosticSource/6.0.1": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -525,8 +531,12 @@
       },
       "dzdata/1.0.0": {
         "dependencies": {
+<<<<<<< HEAD
           "Microsoft.Data.SqlClient": "6.0.1",
           "System.Data.SqlClient": "4.9.0"
+=======
+          "Microsoft.Data.SqlClient": "6.0.1"
+>>>>>>> bc13879 (Mise à jour du projet)
         },
         "runtime": {
           "dzdata.dll": {
@@ -704,6 +714,7 @@
       "path": "microsoft.sqlserver.server/1.0.0",
       "hashPath": "microsoft.sqlserver.server.1.0.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "runtime.native.System.Data.SqlClient.sni/4.4.0": {
       "type": "package",
       "serviceable": true,
@@ -732,6 +743,8 @@
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
     },
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
     "Swashbuckle.AspNetCore/6.6.2": {
       "type": "package",
       "serviceable": true,
@@ -774,6 +787,7 @@
       "path": "system.configuration.configurationmanager/8.0.1",
       "hashPath": "system.configuration.configurationmanager.8.0.1.nupkg.sha512"
     },
+<<<<<<< HEAD
     "System.Data.SqlClient/4.9.0": {
       "type": "package",
       "serviceable": true,
@@ -781,6 +795,8 @@
       "path": "system.data.sqlclient/4.9.0",
       "hashPath": "system.data.sqlclient.4.9.0.nupkg.sha512"
     },
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
     "System.Diagnostics.DiagnosticSource/6.0.1": {
       "type": "package",
       "serviceable": true,

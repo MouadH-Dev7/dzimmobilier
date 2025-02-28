@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{72E611A4-C81D-48B7-89AD-6101A9842CBF}|api\\api.csproj|c:\\users\\mouad\\desktop\\imobiler\\api\\api\\controllers\\api_propertyimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72E611A4-C81D-48B7-89AD-6101A9842CBF}|api\\api.csproj|solutionrelative:api\\controllers\\api_propertyimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -85,26 +86,43 @@
     {
       "AbsoluteMoniker": "D:0:0:{420FA265-308B-4624-BE6E-21BE8D67966F}|dzbussinis\\dzbussinis.csproj|c:\\users\\mouad\\desktop\\imobiler\\api\\dzbussinis\\type_dz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{420FA265-308B-4624-BE6E-21BE8D67966F}|dzbussinis\\dzbussinis.csproj|solutionrelative:dzbussinis\\type_dz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{72E611A4-C81D-48B7-89AD-6101A9842CBF}|api\\api.csproj|c:\\users\\mouad\\desktop\\imobiler\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E611A4-C81D-48B7-89AD-6101A9842CBF}|api\\api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> bc13879 (Mise à jour du projet)
     },
     {
       "AbsoluteMoniker": "D:0:0:{72E611A4-C81D-48B7-89AD-6101A9842CBF}|api\\api.csproj|c:\\users\\mouad\\desktop\\imobiler\\api\\api\\controllers\\api_rols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72E611A4-C81D-48B7-89AD-6101A9842CBF}|api\\api.csproj|solutionrelative:api\\controllers\\api_rols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{6FDC6269-25E6-464C-B376-EB6F01D83C6C}|dzdata\\dzdata.csproj|c:\\users\\mouad\\desktop\\imobiler\\api\\dzdata\\type_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FDC6269-25E6-464C-B376-EB6F01D83C6C}|dzdata\\dzdata.csproj|solutionrelative:dzdata\\type_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{72E611A4-C81D-48B7-89AD-6101A9842CBF}|api\\api.csproj|c:\\users\\mouad\\desktop\\imobiler\\api\\api\\controllers\\api_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E611A4-C81D-48B7-89AD-6101A9842CBF}|api\\api.csproj|solutionrelative:api\\controllers\\api_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> bc13879 (Mise à jour du projet)
     },
     {
       "AbsoluteMoniker": "D:0:0:{420FA265-308B-4624-BE6E-21BE8D67966F}|dzbussinis\\dzbussinis.csproj|c:\\users\\mouad\\desktop\\imobiler\\api\\dzbussinis\\rols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{420FA265-308B-4624-BE6E-21BE8D67966F}|dzbussinis\\dzbussinis.csproj|solutionrelative:dzbussinis\\rols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
+=======
+      "AbsoluteMoniker": "D:0:0:{6FDC6269-25E6-464C-B376-EB6F01D83C6C}|dzdata\\dzdata.csproj|c:\\users\\mouad\\desktop\\imobiler\\api\\dzdata\\rols_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FDC6269-25E6-464C-B376-EB6F01D83C6C}|dzdata\\dzdata.csproj|solutionrelative:dzdata\\rols_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> bc13879 (Mise à jour du projet)
       "AbsoluteMoniker": "D:0:0:{420FA265-308B-4624-BE6E-21BE8D67966F}|dzbussinis\\dzbussinis.csproj|c:\\users\\mouad\\desktop\\imobiler\\api\\dzbussinis\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{420FA265-308B-4624-BE6E-21BE8D67966F}|dzbussinis\\dzbussinis.csproj|solutionrelative:dzbussinis\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FDC6269-25E6-464C-B376-EB6F01D83C6C}|dzdata\\dzdata.csproj|c:\\users\\mouad\\desktop\\imobiler\\api\\dzdata\\users_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FDC6269-25E6-464C-B376-EB6F01D83C6C}|dzdata\\dzdata.csproj|solutionrelative:dzdata\\users_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+<<<<<<< HEAD
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FDC6269-25E6-464C-B376-EB6F01D83C6C}|dzdata\\dzdata.csproj|c:\\users\\mouad\\desktop\\imobiler\\api\\dzdata\\connection_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,6 +135,8 @@
     {
       "AbsoluteMoniker": "D:0:0:{72E611A4-C81D-48B7-89AD-6101A9842CBF}|api\\api.csproj|c:\\users\\mouad\\desktop\\imobiler\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72E611A4-C81D-48B7-89AD-6101A9842CBF}|api\\api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
     }
   ],
   "DocumentGroupContainers": [
@@ -131,6 +151,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "api_PropertyImages.cs",
               "DocumentMoniker": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\api\\Controllers\\api_PropertyImages.cs",
               "RelativeDocumentMoniker": "api\\Controllers\\api_PropertyImages.cs",
@@ -139,11 +160,22 @@
               "ViewState": "AgIAAFAAAAAAAAAAAAAAAFgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T15:13:29.387Z",
+=======
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\api\\Program.cs",
+              "RelativeDocumentMoniker": "api\\Program.cs",
+              "ToolTip": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\api\\Program.cs*",
+              "RelativeToolTip": "api\\Program.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:33:06.083Z",
+>>>>>>> bc13879 (Mise à jour du projet)
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "PropertyImages.cs",
               "DocumentMoniker": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzbussinis\\PropertyImages.cs",
               "RelativeDocumentMoniker": "dzbussinis\\PropertyImages.cs",
@@ -420,11 +452,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 21,
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
               "Title": "api_rols.cs",
               "DocumentMoniker": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\api\\Controllers\\api_rols.cs",
               "RelativeDocumentMoniker": "api\\Controllers\\api_rols.cs",
               "ToolTip": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\api\\Controllers\\api_rols.cs",
               "RelativeToolTip": "api\\Controllers\\api_rols.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T11:04:50.405Z"
@@ -456,11 +491,48 @@
             {
               "$type": "Document",
               "DocumentIndex": 25,
+=======
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwFMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:04:50.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "rols.cs",
+              "DocumentMoniker": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzbussinis\\rols.cs",
+              "RelativeDocumentMoniker": "dzbussinis\\rols.cs",
+              "ToolTip": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzbussinis\\rols.cs",
+              "RelativeToolTip": "dzbussinis\\rols.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:04:06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "rols_data.cs",
+              "DocumentMoniker": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzdata\\rols_data.cs",
+              "RelativeDocumentMoniker": "dzdata\\rols_data.cs",
+              "ToolTip": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzdata\\rols_data.cs",
+              "RelativeToolTip": "dzdata\\rols_data.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAuwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:03:41.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+>>>>>>> bc13879 (Mise à jour du projet)
               "Title": "users_data.cs",
               "DocumentMoniker": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzdata\\users_data.cs",
               "RelativeDocumentMoniker": "dzdata\\users_data.cs",
               "ToolTip": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzdata\\users_data.cs",
               "RelativeToolTip": "dzdata\\users_data.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAABYAAAAAAAAAAAAkwB0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T10:00:34.335Z"
@@ -468,6 +540,16 @@
             {
               "$type": "Document",
               "DocumentIndex": 24,
+=======
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwDwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:00:34.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+>>>>>>> bc13879 (Mise à jour du projet)
               "Title": "users.cs",
               "DocumentMoniker": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\dzbussinis\\users.cs",
               "RelativeDocumentMoniker": "dzbussinis\\users.cs",
@@ -475,7 +557,25 @@
               "RelativeToolTip": "dzbussinis\\users.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2025-02-24T09:59:54.173Z"
+=======
+              "WhenOpened": "2025-02-24T09:59:54.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "api_users.cs",
+              "DocumentMoniker": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\api\\Controllers\\api_users.cs",
+              "RelativeDocumentMoniker": "api\\Controllers\\api_users.cs",
+              "ToolTip": "C:\\Users\\mouad\\Desktop\\imobiler\\api\\api\\Controllers\\api_users.cs",
+              "RelativeToolTip": "api\\Controllers\\api_users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T09:50:02.087Z",
+              "EditorCaption": ""
+>>>>>>> bc13879 (Mise à jour du projet)
             }
           ]
         }

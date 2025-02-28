@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "ContainingType": "api.Controllers.api_Agences",
     "Method": "AddAgence",
     "RelativePath": "api/Agences",
@@ -1010,6 +1011,8 @@
     "EndpointName": "GetAllPropertyImages"
   },
   {
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
     "ContainingType": "api.Controllers.RolesController",
     "Method": "AddRole",
     "RelativePath": "api/Roles",
@@ -1212,6 +1215,7 @@
     "EndpointName": "GetAllRoles"
   },
   {
+<<<<<<< HEAD
     "ContainingType": "api.Controllers.Status_PropertiesController",
     "Method": "AddStatusProperty",
     "RelativePath": "api/Status_Properties",
@@ -1616,6 +1620,8 @@
     "EndpointName": "GetAllTypes"
   },
   {
+=======
+>>>>>>> bc13879 (Mise à jour du projet)
     "ContainingType": "api.Controllers.UsersController",
     "Method": "AddUser",
     "RelativePath": "api/Users",

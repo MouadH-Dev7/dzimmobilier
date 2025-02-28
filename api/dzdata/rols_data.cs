@@ -15,10 +15,18 @@ namespace dzdata
         public int Id { get; set; }
         public string Name { get; set; }
     }
+<<<<<<< HEAD
     
     public class RolesData
     {
       private static readonly string _connectionString = Connection_data._connectionString;
+=======
+
+    public class RolesData
+    {
+        private static string _connectionString = "Server=localhost;Database=DB_dzimmo;User Id=sa;Password=sa123456;Encrypt=False;TrustServerCertificate=True;Connection Timeout=30;";
+
+>>>>>>> bc13879 (Mise à jour du projet)
         public static List<RoleDTO> GetRoles()
         {
             var roles = new List<RoleDTO>();

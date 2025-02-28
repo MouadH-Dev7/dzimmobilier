@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dzdata")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3208ab3d76f1e58ec93c3952b1f5572348b93d28")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5049a9786e35e3e20f501b803d848c5bc1e7d05d")]
+>>>>>>> bc13879 (Mise à jour du projet)
 [assembly: System.Reflection.AssemblyProductAttribute("dzdata")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dzdata")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
